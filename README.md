@@ -38,7 +38,20 @@ http://aistudio.baidu.com/aistudio/#/competition/detail/5
 由于本次比赛是基于paddlepaddle框架的车道线分割，目前paddlepaddle的用户较少，而且paddlepaddle开源的语义分割的模型更是有限。
 只能自己一步一步的采坑踩过来，其中的艰辛都是泪（paddlepaddle的机制太不完善，不过值得庆幸的是百度的issue和工程师很给力）。
 
-本次比赛使用的主要模型有：BiseNet、SCNN、deeplabv3+、ICNet，由于时间匆忙，数据读取和制作的地方写的不太灵活动，不过其中我都写了很多注释，可以调用函数来读取数据。
+本次比赛使用的主要模型有：BiseNet、SCNN、deeplabv3+、ICNet，
+
+论文地址：
+
+Deeplabv+:https://arxiv.org/pdf/1802.02611.pdf
+
+SCNN：https://arxiv.org/pdf/1712.06080.pdf
+
+ICNET：https://arxiv.org/pdf/1704.08545.pdf
+
+BiseNet:https://arxiv.org/abs/1808.00897
+
+
+由于时间匆忙，数据读取和制作的地方写的不太灵活动，不过其中我都写了很多注释，可以调用函数来读取数据。
 主要还是看模型部分即可，数据读取和制作的方式各位大佬可以根据自己的喜好来即可。
 （模型主要参照论文来复现的，模型写的很粗糙，欢迎大佬改进和吐槽）
 
