@@ -42,7 +42,7 @@ http://aistudio.baidu.com/aistudio/#/competition/detail/5
 
 论文地址：
 
-Deeplabv+:https://arxiv.org/pdf/1802.02611.pdf
+Deeplabv3+:https://arxiv.org/pdf/1802.02611.pdf
 
 SCNN：https://arxiv.org/pdf/1712.06080.pdf
 
